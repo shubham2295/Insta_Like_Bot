@@ -5,7 +5,6 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -16,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  */
 public class InstaLikeBot {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 
 		// Taking required data from user		
 		Scanner input = new Scanner(System.in);
