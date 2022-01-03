@@ -57,7 +57,7 @@ public class InstaLikeBot {
 		// Searching and Navigating to the desired account
 		By searchBox = By.xpath("//input[@type='text']");
 		driver.findElement(searchBox).sendKeys(usertoLike);
-		By searchResult = By.xpath("//div[@class='fuqBx ']/div/a");
+		By searchResult = By.xpath("//a[@class='-qQT3' and @href='/"+usertoLike+"/']");
 		dowaitforElement(driver, searchResult);
 		driver.findElement(searchResult).click();
 
